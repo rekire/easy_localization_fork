@@ -197,13 +197,17 @@ class EasyLocalizationController extends ChangeNotifier {
 
   Future<void> _saveLocale(Locale? locale) async {
     if (!saveLocale) return;
-    final preferences = await SharedPreferences.getInstance();
+    final preferences = await SharedPreferencesWithCache.create(
+      cacheOptions: const SharedPreferencesWithCacheOptions(allowList: null),
+    );
     await preferences.setString('locale', locale.toString());
     EasyLocalization.logger('Locale $locale saved');
   }
 
   static Future<void> initEasyLocation() async {
-    final preferences = await SharedPreferences.getInstance();
+    final preferences = await SharedPreferencesWithCache.create(
+      cacheOptions: const SharedPreferencesWithCacheOptions(allowList: null),
+    );
     final strLocale = preferences.getString('locale');
     _savedLocale = strLocale?.toLocale();
     final foundPlatformLocale = await findSystemLocale();
@@ -213,7 +217,9 @@ class EasyLocalizationController extends ChangeNotifier {
 
   Future<void> deleteSaveLocale() async {
     _savedLocale = null;
-    final preferences = await SharedPreferences.getInstance();
+    final preferences = await SharedPreferencesWithCache.create(
+      cacheOptions: const SharedPreferencesWithCacheOptions(allowList: null),
+    );
     await preferences.remove('locale');
     EasyLocalization.logger('Saved locale deleted');
   }
