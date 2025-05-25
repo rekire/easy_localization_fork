@@ -1,27 +1,8 @@
-[![Stand With Palestine](https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/banner-no-action.svg)](https://thebsd.github.io/StandWithPalestine)
+# My personal easy_localization fork
 
-<p align="center"><img src="https://raw.githubusercontent.com/aissat/easy_localization/develop/logo/logo.svg?sanitize=true" width="600"/></p>
-<h1 align="center"> 
-Easy and Fast internationalization for your Flutter Apps
-</h1>
+Don't use this fork. This fork is just for playing around and PRs.
 
-[![Pub Version](https://img.shields.io/pub/v/easy_localization?style=flat-square&logo=dart)](https://pub.dev/packages/easy_localization)
-[![likes](https://badges.bar/easy_localization/likes)](https://pub.dev/packages/easy_localization/score)
-[![likes](https://badges.bar/easy_localization/popularity)](https://pub.dev/packages/easy_localization/score)
-[![likes](https://badges.bar/easy_localization/pub%20points)](https://pub.dev/packages/easy_localization/score)
-![Code Climate issues](https://img.shields.io/github/issues/aissat/easy_localization?style=flat-square)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/aissat/easy_localization?style=flat-square)
-![GitHub contributors](https://img.shields.io/github/contributors/aissat/easy_localization?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/aissat/easy_localization?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/aissat/easy_localization?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/aissat/easy_localization?style=flat-square)
-![Coveralls github branch](https://img.shields.io/coveralls/github/aissat/easy_localization/dev?style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/aissat/easy_localization/Flutter%20Tester?longCache=true&style=flat-square&logo=github)
-![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/aissat/easy_localization?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/aissat/easy_localization?style=flat-square)
-![Sponsors](https://img.shields.io/opencollective/all/flutter_easy_localization?style=flat-square)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
-[![StandWithPalestine](https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/badges/StandWithPalestine.svg)](https://github.com/TheBSD/StandWithPalestine/blob/main/docs/README.md)
+Check the upstream at https://github.com/aissat/easy_localization
 
 ## Why easy_localization?
 
